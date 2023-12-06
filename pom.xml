@@ -8,6 +8,10 @@
     <packaging>jar</packaging>
     <version>1.0.0-RELEASE</version>
 
+    <name>chinese-calendar</name>
+    <description>中国节假日查询工具</description>
+    <url>https://github.com/gw752628096/chineseCalendar</url>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.commons</groupId>
