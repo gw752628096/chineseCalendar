@@ -6,7 +6,7 @@
     <groupId>io.github.gw752628096</groupId>
     <artifactId>chinese-calendar</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.0-RELEASE</version>
+    <version>2024.1</version>
 
     <name>chinese-calendar</name>
     <description>中国节假日查询工具</description>
