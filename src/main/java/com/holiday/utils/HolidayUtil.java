@@ -3,13 +3,17 @@ package com.holiday.utils;
 import com.holiday.constants.VacationConstant;
 import com.holiday.constants.WorkDayConstant;
 import com.holiday.enums.HolidayEnum;
-import org.apache.commons.lang3.StringUtils;
-import org.joda.time.DateTime;
 
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.ZoneOffset;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.Map;
 
 public class HolidayUtil {
+    private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd");
+
     /**
      * 字符串判断是否是节假日
      *
@@ -17,7 +21,7 @@ public class HolidayUtil {
      * @return 是否节假日
      */
     public static boolean isHoliday(String yyyyMMdd) {
-        if (StringUtils.isEmpty(yyyyMMdd)) {
+        if (null == yyyyMMdd || yyyyMMdd.length() != 8) {
             return false;
         }
         Map<String, HolidayEnum> vacationMap = VacationConstant.vacationMap;
@@ -40,7 +44,8 @@ public class HolidayUtil {
             return false;
         }
 
-        String yyyyMMdd = new DateTime(date.getTime()).toString("yyyyMMdd");
+        LocalDate localDate = date.toInstant().atZone(ZoneOffset.systemDefault()).toLocalDate();
+        String yyyyMMdd = localDate.format(formatter);
         return isHoliday(yyyyMMdd);
     }
 
@@ -55,7 +60,8 @@ public class HolidayUtil {
             return false;
         }
 
-        String yyyyMMdd = new DateTime(timestamp).toString("yyyyMMdd");
+        LocalDate localDate = Instant.ofEpochMilli(timestamp).atZone(ZoneOffset.systemDefault()).toLocalDate();
+        String yyyyMMdd = localDate.format(formatter);
         return isHoliday(yyyyMMdd);
     }
 
@@ -66,7 +72,7 @@ public class HolidayUtil {
      * @return 是否调休
      */
     public static boolean isExchangeWordDay(String yyyyMMdd) {
-        if (StringUtils.isEmpty(yyyyMMdd)) {
+        if (null == yyyyMMdd || yyyyMMdd.length() != 8) {
             return false;
         }
         Map<String, HolidayEnum> workDayMap = WorkDayConstant.workDayMap;
@@ -89,7 +95,8 @@ public class HolidayUtil {
             return false;
         }
 
-        String yyyyMMdd = new DateTime(date.getTime()).toString("yyyyMMdd");
+        LocalDate localDate = date.toInstant().atZone(ZoneOffset.systemDefault()).toLocalDate();
+        String yyyyMMdd = localDate.format(formatter);
         return isExchangeWordDay(yyyyMMdd);
     }
 
@@ -104,7 +111,8 @@ public class HolidayUtil {
             return false;
         }
 
-        String yyyyMMdd = new DateTime(timestamp).toString("yyyyMMdd");
+        LocalDate localDate = Instant.ofEpochMilli(timestamp).atZone(ZoneOffset.systemDefault()).toLocalDate();
+        String yyyyMMdd = localDate.format(formatter);
         return isExchangeWordDay(yyyyMMdd);
     }
 
@@ -115,7 +123,7 @@ public class HolidayUtil {
      * @return 节假日英文名
      */
     public static String getHolidayEnName(String yyyyMMdd) {
-        if (StringUtils.isEmpty(yyyyMMdd)) {
+        if (null == yyyyMMdd || yyyyMMdd.length() != 8) {
             return null;
         }
         Map<String, HolidayEnum> vacationMap = VacationConstant.vacationMap;
@@ -138,7 +146,8 @@ public class HolidayUtil {
             return null;
         }
 
-        String yyyyMMdd = new DateTime(date.getTime()).toString("yyyyMMdd");
+        LocalDate localDate = date.toInstant().atZone(ZoneOffset.systemDefault()).toLocalDate();
+        String yyyyMMdd = localDate.format(formatter);
         return getHolidayEnName(yyyyMMdd);
     }
 
@@ -153,7 +162,8 @@ public class HolidayUtil {
             return null;
         }
 
-        String yyyyMMdd = new DateTime(timestamp).toString("yyyyMMdd");
+        LocalDate localDate = Instant.ofEpochMilli(timestamp).atZone(ZoneOffset.systemDefault()).toLocalDate();
+        String yyyyMMdd = localDate.format(formatter);
         return getHolidayEnName(yyyyMMdd);
     }
 
@@ -164,7 +174,7 @@ public class HolidayUtil {
      * @return 节假日中文名
      */
     public static String getHolidayCnName(String yyyyMMdd) {
-        if (StringUtils.isEmpty(yyyyMMdd)) {
+        if (null == yyyyMMdd || yyyyMMdd.length() != 8) {
             return null;
         }
         Map<String, HolidayEnum> vacationMap = VacationConstant.vacationMap;
@@ -187,7 +197,8 @@ public class HolidayUtil {
             return null;
         }
 
-        String yyyyMMdd = new DateTime(date.getTime()).toString("yyyyMMdd");
+        LocalDate localDate = date.toInstant().atZone(ZoneOffset.systemDefault()).toLocalDate();
+        String yyyyMMdd = localDate.format(formatter);
         return getHolidayCnName(yyyyMMdd);
     }
 
@@ -202,7 +213,8 @@ public class HolidayUtil {
             return null;
         }
 
-        String yyyyMMdd = new DateTime(timestamp).toString("yyyyMMdd");
+        LocalDate localDate = Instant.ofEpochMilli(timestamp).atZone(ZoneOffset.systemDefault()).toLocalDate();
+        String yyyyMMdd = localDate.format(formatter);
         return getHolidayCnName(yyyyMMdd);
     }
 }
