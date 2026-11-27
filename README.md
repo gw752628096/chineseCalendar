@@ -1,7 +1,7 @@
 # ChineseCalendar
 ![CI](https://github.com/gw752628096/chineseCalendar/actions/workflows/ci.yml/badge.svg)
 
-判断是否是法定节假日，git上只看到了python版本(https://github.com/LKI/chinese-calendar)。  
+判断是否是法定节假日，git 上只看到了 python 版本（[LKI/chinese-calendar](https://github.com/LKI/chinese-calendar)）。  
 为了调用方便,自己实现一个java版本。
 
 该项目用来判断某年某月某一天是不是工作日/节假日。支持<text style="color:red;font-size:20px;font-weight:bold">2004年</text>至<text style="color:red;font-size:20px;font-weight:bold">2027年</text>，包括2020年的春节延长。  
