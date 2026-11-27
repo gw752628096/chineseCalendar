@@ -6,13 +6,20 @@
     <groupId>io.github.gw752628096</groupId>
     <artifactId>chinese-calendar</artifactId>
     <packaging>jar</packaging>
-    <version>2024.1</version>
+    <version>2027.1</version>
 
     <name>chinese-calendar</name>
     <description>中国节假日查询工具</description>
     <url>https://github.com/gw752628096/chineseCalendar</url>
 
     <dependencies>
+        <!-- 仅测试使用，不影响运行时依赖 -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <profiles>

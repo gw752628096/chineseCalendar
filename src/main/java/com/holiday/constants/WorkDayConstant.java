@@ -189,5 +189,27 @@ public class WorkDayConstant {
         workDayMap.put("20240929", HolidayEnum.NATIONAL_DAY);
         workDayMap.put("20241012", HolidayEnum.NATIONAL_DAY);
 
+        //2025
+        workDayMap.put("20250126", HolidayEnum.SPRING_FESTIVAL);
+        workDayMap.put("20250208", HolidayEnum.SPRING_FESTIVAL);
+        workDayMap.put("20250427", HolidayEnum.LABOUR_DAY);
+        workDayMap.put("20250928", HolidayEnum.NATIONAL_DAY);
+        workDayMap.put("20251011", HolidayEnum.NATIONAL_DAY);
+
+        //2026
+        workDayMap.put("20260104", HolidayEnum.NEW_YEARS_DAY);
+        workDayMap.put("20260214", HolidayEnum.SPRING_FESTIVAL);
+        workDayMap.put("20260228", HolidayEnum.SPRING_FESTIVAL);
+        workDayMap.put("20260509", HolidayEnum.LABOUR_DAY);
+        workDayMap.put("20260920", HolidayEnum.NATIONAL_DAY);
+        workDayMap.put("20261010", HolidayEnum.NATIONAL_DAY);
+
+        //2027
+        workDayMap.put("20270131", HolidayEnum.SPRING_FESTIVAL);
+        workDayMap.put("20270214", HolidayEnum.SPRING_FESTIVAL);
+        workDayMap.put("20270508", HolidayEnum.LABOUR_DAY);
+        workDayMap.put("20270926", HolidayEnum.NATIONAL_DAY);
+        workDayMap.put("20271009", HolidayEnum.NATIONAL_DAY);
+
     }
 }

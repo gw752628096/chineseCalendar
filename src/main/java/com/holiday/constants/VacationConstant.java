@@ -631,5 +631,101 @@ public class VacationConstant {
         vacationMap.put("20241006", HolidayEnum.NATIONAL_DAY);
         vacationMap.put("20241007", HolidayEnum.NATIONAL_DAY);
 
+        //2025
+        vacationMap.put("20250101", HolidayEnum.NEW_YEARS_DAY);
+        vacationMap.put("20250128", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20250129", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20250130", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20250131", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20250201", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20250202", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20250203", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20250204", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20250404", HolidayEnum.TOMB_SWEEPING_DAY);
+        vacationMap.put("20250405", HolidayEnum.TOMB_SWEEPING_DAY);
+        vacationMap.put("20250406", HolidayEnum.TOMB_SWEEPING_DAY);
+        vacationMap.put("20250501", HolidayEnum.LABOUR_DAY);
+        vacationMap.put("20250502", HolidayEnum.LABOUR_DAY);
+        vacationMap.put("20250503", HolidayEnum.LABOUR_DAY);
+        vacationMap.put("20250504", HolidayEnum.LABOUR_DAY);
+        vacationMap.put("20250505", HolidayEnum.LABOUR_DAY);
+        vacationMap.put("20250531", HolidayEnum.DRAGON_BOAT_FESTIVAL);
+        vacationMap.put("20250601", HolidayEnum.DRAGON_BOAT_FESTIVAL);
+        vacationMap.put("20250602", HolidayEnum.DRAGON_BOAT_FESTIVAL);
+        vacationMap.put("20251001", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20251002", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20251003", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20251004", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20251005", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20251006", HolidayEnum.MID_AUTUMN_FESTIVAL);
+        vacationMap.put("20251007", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20251008", HolidayEnum.NATIONAL_DAY);
+
+        //2026
+        vacationMap.put("20260101", HolidayEnum.NEW_YEARS_DAY);
+        vacationMap.put("20260102", HolidayEnum.NEW_YEARS_DAY);
+        vacationMap.put("20260103", HolidayEnum.NEW_YEARS_DAY);
+        vacationMap.put("20260215", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20260216", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20260217", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20260218", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20260219", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20260220", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20260221", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20260222", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20260223", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20260404", HolidayEnum.TOMB_SWEEPING_DAY);
+        vacationMap.put("20260405", HolidayEnum.TOMB_SWEEPING_DAY);
+        vacationMap.put("20260406", HolidayEnum.TOMB_SWEEPING_DAY);
+        vacationMap.put("20260501", HolidayEnum.LABOUR_DAY);
+        vacationMap.put("20260502", HolidayEnum.LABOUR_DAY);
+        vacationMap.put("20260503", HolidayEnum.LABOUR_DAY);
+        vacationMap.put("20260504", HolidayEnum.LABOUR_DAY);
+        vacationMap.put("20260505", HolidayEnum.LABOUR_DAY);
+        vacationMap.put("20260619", HolidayEnum.DRAGON_BOAT_FESTIVAL);
+        vacationMap.put("20260620", HolidayEnum.DRAGON_BOAT_FESTIVAL);
+        vacationMap.put("20260621", HolidayEnum.DRAGON_BOAT_FESTIVAL);
+        vacationMap.put("20260925", HolidayEnum.MID_AUTUMN_FESTIVAL);
+        vacationMap.put("20260926", HolidayEnum.MID_AUTUMN_FESTIVAL);
+        vacationMap.put("20260927", HolidayEnum.MID_AUTUMN_FESTIVAL);
+        vacationMap.put("20261001", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20261002", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20261003", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20261004", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20261005", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20261006", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20261007", HolidayEnum.NATIONAL_DAY);
+
+        //2027
+        vacationMap.put("20270101", HolidayEnum.NEW_YEARS_DAY);
+        vacationMap.put("20270102", HolidayEnum.NEW_YEARS_DAY);
+        vacationMap.put("20270103", HolidayEnum.NEW_YEARS_DAY);
+        vacationMap.put("20270205", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20270206", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20270207", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20270208", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20270209", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20270210", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20270211", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20270212", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20270213", HolidayEnum.SPRING_FESTIVAL);
+        vacationMap.put("20270403", HolidayEnum.TOMB_SWEEPING_DAY);
+        vacationMap.put("20270404", HolidayEnum.TOMB_SWEEPING_DAY);
+        vacationMap.put("20270405", HolidayEnum.TOMB_SWEEPING_DAY);
+        vacationMap.put("20270501", HolidayEnum.LABOUR_DAY);
+        vacationMap.put("20270502", HolidayEnum.LABOUR_DAY);
+        vacationMap.put("20270503", HolidayEnum.LABOUR_DAY);
+        vacationMap.put("20270504", HolidayEnum.LABOUR_DAY);
+        vacationMap.put("20270505", HolidayEnum.LABOUR_DAY);
+        vacationMap.put("20270609", HolidayEnum.DRAGON_BOAT_FESTIVAL);
+        vacationMap.put("20270915", HolidayEnum.MID_AUTUMN_FESTIVAL);
+        vacationMap.put("20271001", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20271002", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20271003", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20271004", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20271005", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20271006", HolidayEnum.NATIONAL_DAY);
+        vacationMap.put("20271007", HolidayEnum.NATIONAL_DAY);
+
     }
 }
